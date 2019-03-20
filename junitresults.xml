@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Testing Angular" timestamp="2019-03-20T15:26:29" hostname="localhost" time="11.14" errors="0" tests="3" skipped="0" failures="1">
+  <testcase classname="Testing Angular" name="Starter Template Form" time="2.321">
+  </testcase>
+  <testcase classname="Testing Angular" name="Starter Reactive Form" time="3.358">
+  </testcase>
+  <testcase classname="Testing Angular" name="Starter Reactive Form" time="2.479">
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, .btn.btn-defaul)"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, .btn.btn-defaul)
+    at elementArrayFinder.getWebElements.then (C:\Users\edgar.reza.sanchez\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\edgar.reza.sanchez\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\edgar.reza.sanchez\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\edgar.reza.sanchez\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\edgar.reza.sanchez\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\edgar.reza.sanchez\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\edgar.reza.sanchez\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as click] (C:\Users\edgar.reza.sanchez\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as click] (C:\Users\edgar.reza.sanchez\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\DevOps\protractor\todo-spec.js:43:46)
+    at C:\Users\edgar.reza.sanchez\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\edgar.reza.sanchez\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\edgar.reza.sanchez\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\edgar.reza.sanchez\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\edgar.reza.sanchez\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\edgar.reza.sanchez\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("Starter Reactive Form") in control flow
+    at UserContext.<anonymous> (C:\Users\edgar.reza.sanchez\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\edgar.reza.sanchez\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\edgar.reza.sanchez\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\edgar.reza.sanchez\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\edgar.reza.sanchez\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\edgar.reza.sanchez\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\edgar.reza.sanchez\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\edgar.reza.sanchez\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\edgar.reza.sanchez\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\edgar.reza.sanchez\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\DevOps\protractor\todo-spec.js:34:5)
+    at addSpecsToSuite (C:\Users\edgar.reza.sanchez\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\edgar.reza.sanchez\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\edgar.reza.sanchez\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\DevOps\protractor\todo-spec.js:1:63)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+</testsuites>
