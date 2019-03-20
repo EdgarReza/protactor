@@ -31,7 +31,7 @@ describe('Testing Angular', function() {
 });
 });
 
-    it('Starter Reactive Form', function() {
+    it('Basic Template Form', function() {
   
      element(by.partialLinkText('Basic Template Form')).click();
      element(by.name('name')).sendKeys('Benito Juarez');
