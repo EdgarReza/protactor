@@ -40,7 +40,7 @@ describe('Testing Angular', function() {
      browser.driver.sleep(1000);
      element(by.cssContainingText('option', 'Really Smart')).click();
      browser.driver.sleep(1000);
-     element(by.className('btn btn-default')).click(); 
+     element(by.className('btn btn-defaul')).click(); 
      browser.driver.sleep(2000);
     
 });
